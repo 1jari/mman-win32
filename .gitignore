@@ -1,2 +1,12 @@
-x64
-mman.VC.db
+# ignore solutions:
+*.make
+Makefile
+*.sln
+*.vcxproj
+*.vcxproj.filters
+# ignore the lib test
+build_test.lua
+./tsrc/*
+./obj/*
+./bin/*
+./vs/*
