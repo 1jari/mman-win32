@@ -1,5 +1,4 @@
 -- premake5.lua
-require 'build_test' -- This is for lib test only
 workspace "libmman"
   configurations { "Debug", "Release" }
 
